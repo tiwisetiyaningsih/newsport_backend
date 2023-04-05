@@ -3,8 +3,8 @@ module.exports = (sequelize, Sequelize) => {
         judul: {
             type: Sequelize.STRING,
         },
-        image: {
-            type: Sequelize.STRING,
+        kategori: {
+            type:Sequelize.STRING,
         },
         news: {
             type: Sequelize.STRING,
